@@ -1,0 +1,23 @@
+Scores from p5 for You need to create an authors.csv file!!!!
+
+Note that format is: e-mail<comma>last name<comma>first name
+For example: ssdavis@ucdavis.edu,Davis,Sean
+
+Addresses used: 2nd_solution/@ucdavis.edu
+ 
+dmcache.cpp:
+Testing dmtest-8-64-1000-14.txt: 
+OK
+Testing dmtest-8-64-1000-15.txt: 
+OK
+Testing dmtest-8-64-1000-16.txt: 
+OK
+
+sacache.cpp: 
+Testing satest-1000-14.txt: 
+OK
+Testing satest-1000-15.txt: 
+OK
+Testing satest-1000-16.txt: 
+OK
+Total score: 15 + 15 = 30

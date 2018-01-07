@@ -1,0 +1,19 @@
+Scores from p5 for You need to create an authors.csv file!!!!
+
+Note that format is: e-mail<comma>last name<comma>first name
+For example: ssdavis@ucdavis.edu,Davis,Sean
+
+Addresses used: private/@ucdavis.edu
+ 
+
+vm.cpp: 
+Testing vmtest-1000-6.txt: 
+
+Not OK
+Testing vmtest-1000-7.txt: 
+
+Not OK
+Testing vmtest-1000-8.txt: 
+
+Not OK
+Total score: 0 

@@ -1,0 +1,8 @@
+The testhw and the Testing directory are now available for use
+in ~ssdavis/154/p5. Copy testhw to one of your own directories.
+There is no need to copy the Testing directory.
+testhw takes only one argument--the directory that holds your vm.cpp file.
+testhw places all of the results in results.txt in 
+the directory with the source files in it.
+
+Sean

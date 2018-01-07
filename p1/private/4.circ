@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.7.1" version="1.0">
+This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
+<lib desc="#Wiring" name="0">
+    <tool name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+      <a name="appear" val="center"/>
+    </tool>
+    <tool name="Tunnel">
+      <a name="facing" val="south"/>
+      <a name="label" val="A"/>
+      <a name="labelfont" val="SansSerif plain 11"/>
+    </tool>
+    <tool name="Constant">
+      <a name="width" val="4"/>
+      <a name="value" val="0xf"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#Base" name="6">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="6" map="Button2" name="Menu Tool"/>
+    <tool lib="6" map="Button3" name="Menu Tool"/>
+    <tool lib="6" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="6" name="Poke Tool"/>
+    <tool lib="6" name="Edit Tool"/>
+    <tool lib="6" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin">
+      <a name="tristate" val="false"/>
+    </tool>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif plain 12"/>
+    <wire from="(780,300)" to="(810,300)"/>
+    <wire from="(640,320)" to="(650,320)"/>
+    <wire from="(710,320)" to="(720,320)"/>
+    <wire from="(60,370)" to="(100,370)"/>
+    <wire from="(590,300)" to="(600,300)"/>
+    <wire from="(710,240)" to="(720,240)"/>
+    <wire from="(680,200)" to="(740,200)"/>
+    <wire from="(770,240)" to="(770,280)"/>
+    <wire from="(580,300)" to="(590,300)"/>
+    <wire from="(590,240)" to="(590,250)"/>
+    <wire from="(90,380)" to="(90,400)"/>
+    <wire from="(710,300)" to="(740,300)"/>
+    <wire from="(820,330)" to="(820,360)"/>
+    <wire from="(750,330)" to="(750,360)"/>
+    <wire from="(640,300)" to="(670,300)"/>
+    <wire from="(780,320)" to="(790,320)"/>
+    <wire from="(610,330)" to="(610,360)"/>
+    <wire from="(90,380)" to="(100,380)"/>
+    <wire from="(770,240)" to="(780,240)"/>
+    <wire from="(280,300)" to="(280,310)"/>
+    <wire from="(790,250)" to="(790,260)"/>
+    <wire from="(590,280)" to="(770,280)"/>
+    <wire from="(230,270)" to="(310,270)"/>
+    <wire from="(680,200)" to="(680,210)"/>
+    <wire from="(860,300)" to="(860,330)"/>
+    <wire from="(90,340)" to="(90,360)"/>
+    <wire from="(230,320)" to="(290,320)"/>
+    <wire from="(890,240)" to="(890,260)"/>
+    <wire from="(670,200)" to="(680,200)"/>
+    <wire from="(800,250)" to="(800,260)"/>
+    <wire from="(600,240)" to="(600,250)"/>
+    <wire from="(230,290)" to="(310,290)"/>
+    <wire from="(210,340)" to="(210,350)"/>
+    <wire from="(610,240)" to="(630,240)"/>
+    <wire from="(720,320)" to="(720,330)"/>
+    <wire from="(650,320)" to="(650,330)"/>
+    <wire from="(280,300)" to="(310,300)"/>
+    <wire from="(600,250)" to="(610,250)"/>
+    <wire from="(610,360)" to="(680,360)"/>
+    <wire from="(90,360)" to="(100,360)"/>
+    <wire from="(800,260)" to="(890,260)"/>
+    <wire from="(890,260)" to="(890,360)"/>
+    <wire from="(360,290)" to="(380,290)"/>
+    <wire from="(580,340)" to="(620,340)"/>
+    <wire from="(760,230)" to="(780,230)"/>
+    <wire from="(680,360)" to="(750,360)"/>
+    <wire from="(680,330)" to="(680,360)"/>
+    <wire from="(630,240)" to="(630,250)"/>
+    <wire from="(850,300)" to="(860,300)"/>
+    <wire from="(230,310)" to="(280,310)"/>
+    <wire from="(790,320)" to="(790,330)"/>
+    <wire from="(820,360)" to="(890,360)"/>
+    <wire from="(750,360)" to="(820,360)"/>
+    <wire from="(60,400)" to="(90,400)"/>
+    <wire from="(620,330)" to="(620,340)"/>
+    <wire from="(120,350)" to="(210,350)"/>
+    <wire from="(60,340)" to="(90,340)"/>
+    <wire from="(290,310)" to="(310,310)"/>
+    <wire from="(230,280)" to="(310,280)"/>
+    <wire from="(600,210)" to="(600,220)"/>
+    <wire from="(590,280)" to="(590,300)"/>
+    <wire from="(290,310)" to="(290,320)"/>
+    <comp lib="0" loc="(600,220)" name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="4" loc="(710,300)" name="T Flip-Flop"/>
+    <comp lib="0" loc="(60,340)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="C"/>
+    </comp>
+    <comp lib="0" loc="(790,330)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="A"/>
+      <a name="labelfont" val="SansSerif plain 11"/>
+    </comp>
+    <comp lib="0" loc="(680,210)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="f"/>
+      <a name="labelfont" val="SansSerif plain 11"/>
+    </comp>
+    <comp lib="0" loc="(790,260)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="go"/>
+      <a name="labelfont" val="SansSerif plain 11"/>
+    </comp>
+    <comp lib="0" loc="(610,250)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="B"/>
+      <a name="labelfont" val="SansSerif plain 11"/>
+    </comp>
+    <comp lib="4" loc="(640,300)" name="T Flip-Flop"/>
+    <comp lib="5" loc="(890,240)" name="Button">
+      <a name="facing" val="south"/>
+      <a name="label" val="Reset"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="6" loc="(815,212)" name="Text">
+      <a name="text" val="01110110"/>
+    </comp>
+    <comp lib="0" loc="(670,200)" name="Probe"/>
+    <comp lib="0" loc="(860,330)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="go"/>
+      <a name="labelfont" val="SansSerif plain 11"/>
+    </comp>
+    <comp lib="0" loc="(60,400)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="A"/>
+    </comp>
+    <comp lib="4" loc="(850,300)" name="T Flip-Flop"/>
+    <comp lib="0" loc="(740,320)" name="Power">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(720,240)" name="Splitter">
+      <a name="fanout" val="6"/>
+      <a name="incoming" val="6"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(760,230)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="7"/>
+      <a name="incoming" val="7"/>
+      <a name="appear" val="center"/>
+    </comp>
+    <comp lib="0" loc="(810,320)" name="Power">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(600,210)" name="Probe">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(360,290)" name="OR Gate"/>
+    <comp lib="0" loc="(120,350)" name="Splitter">
+      <a name="facing" val="west"/>
+      <a name="fanout" val="3"/>
+      <a name="incoming" val="3"/>
+    </comp>
+    <comp lib="0" loc="(710,240)" name="Constant">
+      <a name="width" val="6"/>
+      <a name="value" val="0x18"/>
+    </comp>
+    <comp lib="0" loc="(630,250)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="C"/>
+      <a name="labelfont" val="SansSerif plain 11"/>
+    </comp>
+    <comp lib="2" loc="(210,340)" name="Decoder">
+      <a name="select" val="3"/>
+    </comp>
+    <comp lib="0" loc="(650,330)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="C"/>
+      <a name="labelfont" val="SansSerif plain 11"/>
+    </comp>
+    <comp lib="5" loc="(780,240)" name="TTY">
+      <a name="rows" val="1"/>
+      <a name="cols" val="10"/>
+    </comp>
+    <comp lib="0" loc="(590,250)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="A"/>
+      <a name="labelfont" val="SansSerif plain 11"/>
+    </comp>
+    <comp lib="4" loc="(780,300)" name="T Flip-Flop"/>
+    <comp lib="0" loc="(720,330)" name="Tunnel">
+      <a name="facing" val="north"/>
+      <a name="label" val="B"/>
+      <a name="labelfont" val="SansSerif plain 11"/>
+    </comp>
+    <comp lib="0" loc="(380,290)" name="Tunnel">
+      <a name="label" val="f"/>
+    </comp>
+    <comp lib="0" loc="(600,320)" name="Power">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(60,370)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="B"/>
+    </comp>
+    <comp lib="0" loc="(670,320)" name="Power">
+      <a name="facing" val="west"/>
+    </comp>
+    <comp lib="0" loc="(580,300)" name="Clock"/>
+    <comp lib="0" loc="(580,340)" name="Tunnel">
+      <a name="facing" val="east"/>
+      <a name="label" val="go"/>
+      <a name="labelfont" val="SansSerif plain 11"/>
+    </comp>
+  </circuit>
+</project>
